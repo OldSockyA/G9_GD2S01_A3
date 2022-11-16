@@ -25,6 +25,7 @@ public class AddVal : MonoBehaviour
             startV += changeV;
             
             textCanv.text = startV.ToString();
+            Debug.Log(startV);
         }
     }
 }
